@@ -7,8 +7,8 @@ The workflow was developed for simulated *Coffea arabica* datasets representing 
 ## Repository contents
 
 - `1_simulate_metagenome.py`  
-  Simulates Illumina-like metagenomic reads with controlled proportions of host nuclear, chloroplast, mitochondrial, environmental background, and pathogen reads. Outputs per-sample FASTQ files and a `metadata.csv` file.
-
+  Simulates Illumina-like metagenomic reads with controlled proportions of host nuclear, chloroplast, mitochondrial, environmental background, and pathogen reads. Outputs per-sample FASTQ files and a `metadata.csv` file. The current version contains dataset-specific reference paths and should be modified before reuse.
+  
 - `2_host_depletion_krakenuniq.py`  
   Removes host-derived reads from FASTQ files using KrakenUniq classification and KrakenTools extraction.
 
